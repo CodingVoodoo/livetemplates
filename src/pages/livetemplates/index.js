@@ -1,17 +1,32 @@
 import withRoot from "../../utils/withRoot";
 import React from "react";
 import { graphql } from "gatsby";
+import { Grid } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 import SEO from "../../components/SEO";
 import Page from "../../components/Page";
 import List from "../../components/List";
+import InfoDialog from "../../components/InfoDialog";
+
+const useStyles = makeStyles({
+  paper: {
+    maxWidth: 330
+  },
+  icon: {
+    float: "right"
+  }
+});
 
 const Products = (props) => {
+  const classes = useStyles();
   const livetemplates = props.data.allMarkdownRemark.edges;
-  console.log(livetemplates)
   return (
     <Page>
       <SEO title="Live Templates" />
       <List items={livetemplates} />
+      <Grid container justify="flex-end" alignItems="flex-end">
+        <InfoDialog/>
+      </Grid>
     </Page>
   );
 };
