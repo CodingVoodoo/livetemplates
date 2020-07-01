@@ -6,9 +6,9 @@ import Page from "../../components/Page";
 
 const About = () => {
   return (
-    <Page title="About">
+    <Page>
       <SEO title="About" />
-      <Typography paragraph>About</Typography>
+      <Typography paragraph>Live Templates for IntelliJ</Typography>
     </Page>
   );
 };
