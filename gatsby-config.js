@@ -10,7 +10,7 @@ module.exports = {
       {
         name: "About",
         link: "/about",
-      },
+      }
     ],
   },
   plugins: [
@@ -21,7 +21,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-prismjs",
             options: {},
-          },
+          }
         ],
       },
     },
