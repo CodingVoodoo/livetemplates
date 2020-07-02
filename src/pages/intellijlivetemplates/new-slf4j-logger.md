@@ -1,5 +1,5 @@
 ---
-path: "/livetemplates/new-slf4j-logger"
+path: "/intellijlivetemplates/new-slf4j-logger"
 title: "New SLF4J logger"
 languages:
   - java

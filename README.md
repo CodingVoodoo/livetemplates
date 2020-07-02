@@ -1,4 +1,4 @@
-# Live Templates
+# IntelliJ Live Templates
 
 ## Deployment
 

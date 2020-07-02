@@ -1,5 +1,5 @@
 ---
-path: "/livetemplates/new-junit-test"
+path: "/intellijlivetemplates/new-junit-test"
 title: "New jUnit test"
 languages:
   - java

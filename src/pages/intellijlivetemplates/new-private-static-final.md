@@ -1,5 +1,5 @@
 ---
-path: "/livetemplates/new-private-static-final"
+path: "/intellijlivetemplates/new-private-static-final"
 title: "New Private Static Final"
 languages:
   - java

@@ -1,7 +1,7 @@
 {
-  "name": "live-templates",
+  "name": "intellij-live-templates",
   "version": "1.0.1",
-  "description": "Live Templates",
+  "description": "IntelliJ Live Templates",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

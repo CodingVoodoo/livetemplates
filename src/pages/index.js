@@ -15,14 +15,12 @@ const styles = () => ({
   },
 });
 const Home = (props) => {
-  const livetemplates = props.data.allMarkdownRemark.edges;
-  console.log('here')
-  console.log(livetemplates)
+  const intellijlivetemplates = props.data.allMarkdownRemark.edges;
   return (
-    <Page title="Live Templates">
+    <Page title="IntelliJ Live Templates">
       <SEO title="Home">
         <meta
-          content="Live Templates"
+          content="IntelliJ  Live Templates"
           name="description"
         />
       </SEO>
@@ -33,15 +31,15 @@ const Home = (props) => {
             className={props.classes.root}
             color="secondary"
             component={Link}
-            to="/livetemplates"
+            to="/intellijlivetemplates"
             variant="contained"
           >
-            View All Live Templates
+            View All IntelliJ Live Templates
           </Button>
         }
         style={{ minHeight: 523 }}
       >
-        <Carousel items={livetemplates} />
+        <Carousel items={intellijlivetemplates} />
       </Card>
     </Page>
   );

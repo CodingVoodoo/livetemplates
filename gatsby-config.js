@@ -1,11 +1,11 @@
 module.exports = {
-  pathPrefix: "/live-templates",
+  pathPrefix: "/intellij-live-templates",
   siteMetadata: {
-    title: "Live templates",
+    title: "IntelliJ Live templates",
     menuLinks: [
       {
-        name: "Live Templates",
-        link: "/livetemplates",
+        name: "IntelliJ Live Templates",
+        link: "/intellijlivetemplates",
       },
       {
         name: "About",

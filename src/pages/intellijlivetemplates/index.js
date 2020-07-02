@@ -8,11 +8,11 @@ import List from "../../components/List";
 import InfoDialog from "../../components/InfoDialog";
 
 const Products = (props) => {
-  const livetemplates = props.data.allMarkdownRemark.edges;
+  const intellijlivetemplates = props.data.allMarkdownRemark.edges;
   return (
     <Page>
-      <SEO title="Live Templates" />
-      <List items={livetemplates} />
+      <SEO title="IntelliJ Live Templates" />
+      <List items={intellijlivetemplates} />
       <Grid container justify="flex-end" alignItems="flex-end">
         <InfoDialog/>
       </Grid>
@@ -21,9 +21,9 @@ const Products = (props) => {
 };
 
 export const query = graphql`
-  query LiveTemplatesQuery {
+  query IntellijLiveTemplatesQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/livetemplates/" } }
+      filter: { fileAbsolutePath: { regex: "/intellijlivetemplates/" } }
     ) {
       edges {
         node {

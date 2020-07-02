@@ -1,5 +1,5 @@
 ---
-path: "/livetemplates/new-mockito-mock"
+path: "/intellijlivetemplates/new-mockito-mock"
 title: "New Mockito mock"
 languages:
   - java
