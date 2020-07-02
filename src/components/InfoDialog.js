@@ -42,7 +42,7 @@ export default function InfoDialog() {
             Please create PR's against repository{" "}
             <Link
               target="_blank"
-              href="https://github.com/CodingVoodoo/livetemplates/tree/master/src/pages/livetemplates"
+              href="https://github.com/CodingVoodoo/livetemplates/tree/master/src/pages/intellijlivetemplates"
             >
               GitHub
             </Link>
