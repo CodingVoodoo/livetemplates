@@ -28,3 +28,5 @@ Production build:
 ```
 yarn run build
 ```
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e661667-6690-4d2b-81ee-2bcf2fa83586/deploy-status)](https://app.netlify.com/sites/intellijlivetemplates/deploys)
