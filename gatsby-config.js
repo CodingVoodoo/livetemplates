@@ -10,7 +10,7 @@ module.exports = {
       {
         name: "About",
         link: "/about",
-      }
+      },
     ],
   },
   plugins: [
@@ -21,8 +21,14 @@ module.exports = {
           {
             resolve: "gatsby-remark-prismjs",
             options: {},
-          }
+          },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-33179034-6",
       },
     },
     "gatsby-plugin-react-helmet",
